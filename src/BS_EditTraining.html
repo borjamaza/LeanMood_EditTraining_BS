@@ -51,14 +51,14 @@
                                 <input type="date" class="form-control" id="start">
                               </div>
                               <div class="col-md-1 hidden-xs hidden-sm">
-                                <img src="/content/img/calendar.png"/>
+                                <img src="/content/img/calendar.png" alt="calendar"/>
                               </div>
                               <label class="control-label col-md-1 col-xs-12" for="end">end</label>
                               <div class="col-md-3 col-xs-12">
                                 <input type="date" class="form-control" id="end">
                               </div>
                               <div class="col-md-1 hidden-xs hidden-sm">
-                                <img src="/content/img/calendar.png"/>
+                                <img src="/content/img/calendar.png" alt="calendar"/>
                               </div>
                             </div>
                             <div class="form-group">
@@ -70,8 +70,114 @@
                             </div>
                           </form>
                         </div>
-                        <div class="tab-pane fade" id="tabtrainers">Primary 2</div>
-                        <div class="tab-pane fade" id="tabstudents">Primary 3</div>
+                        <div class="tab-pane fade" id="tabtrainers">
+
+                          <div class="table">
+                            <table class="table table-bordered table-hover table-striped">
+                              <thead>
+                                <tr class="active">
+                                  <td>Name</td>
+                                  <td>Comments</td>
+                                  <td>Commands</td>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <td>Braulio Díez</td>
+                                  <td>Bundling / React / Testing / TFM</td>
+                                  <td><a href="#"><img src="/content/img/edit.png" alt="edit"/></a> &nbsp;&nbsp;&nbsp;<a href="#"><img src="/content/img/delete.png" alt="delete"/></a></td>
+                                </tr>
+                                <tr>
+                                  <td>Pablonete</td>
+                                  <td>Javascript / Typescript</td>
+                                  <td><a href="#"><img src="/content/img/edit.png" alt="edit"/></a> &nbsp;&nbsp;&nbsp;<a href="#"><img src="/content/img/delete.png" alt="delete"/></a></td>
+                                </tr>
+                                <tr>
+                                  <td>Jaime Salas</td>
+                                  <td>Layout / Rest</td>
+                                  <td><a href="#"><img src="/content/img/edit.png" alt="edit"/></a> &nbsp;&nbsp;&nbsp;<a href="#"><img src="/content/img/delete.png" alt="delete"/></a></td>
+                                </tr>
+                                <tr>
+                                  <td>Pedro Molina</td>
+                                  <td>Cloud</td>
+                                  <td><a href="#"><img src="/content/img/edit.png" alt="edit"/></a> &nbsp;&nbsp;&nbsp;<a href="#"><img src="/content/img/delete.png" alt="delete"/></a></td>
+                                </tr>
+                              </tbody>
+                            </table>
+                            <form class="form-inline">
+                              <div class="form-group">
+
+                                <label for="name">Name</label>
+                                <select class="form-control-inline" id="name">
+                                  <option selected>Braulio</option>
+                                  <option>Pablonete</option>
+                                  <option>Jaime</option>
+                                  <option>Pedro</option>
+                                </select>
+                                <label for="comments">Comments</label>
+                                <input type="text" class="form-control" id="comments" placeholder="please, write comments">
+                                <button type="#" class="btn btn-default">Add</button>
+                              </div>
+                            </form>
+                            <a href="#">Add new trainer</a>
+                          </div>
+                        </div>
+                        <div class="tab-pane fade" id="tabstudents">
+                          <div class="table">
+                            <table class="table table-bordered table-hover table-striped">
+                              <thead>
+                                <tr class="active">
+                                  <td>Active</td>
+                                  <td>Name</td>
+                                  <td>Comments</td>
+                                  <td>Commands</td>
+                                </tr>
+                              </thead>
+                              <tbody>
+                                <tr>
+                                  <td><input Type="checkbox" checked/></td>
+                                  <td>Rocio García Hermoso</td>
+                                  <td></td>
+                                  <td><a href="#"><img src="/content/img/edit.png" alt="edit"/></a> &nbsp;&nbsp;&nbsp;<a href="#"><img src="/content/img/delete.png" alt="delete"/></a></td>
+                                </tr>
+                                <tr>
+                                  <td><input Type="checkbox" checked/></td>
+                                  <td>Victor Manuel Fernández</td>
+                                  <td></td>
+                                  <td><a href="#"><img src="/content/img/edit.png" alt="edit"/></a> &nbsp;&nbsp;&nbsp;<a href="#"><img src="/content/img/delete.png" alt="delete"/></a></td>
+                                </tr>
+                                <tr>
+                                  <td><input Type="checkbox" checked/></td>
+                                  <td>David Atencia</td>
+                                  <td></td>
+                                  <td><a href="#"><img src="/content/img/edit.png" alt="edit"/></a> &nbsp;&nbsp;&nbsp;<a href="#"><img src="/content/img/delete.png" alt="delete"/></a></td>
+                                </tr>
+                                <tr>
+                                  <td><input Type="checkbox" checked/></td>
+                                  <td>Borja Maza</td>
+                                  <td></td>
+                                  <td><a href="#"><img src="/content/img/edit.png" alt="edit"/></a> &nbsp;&nbsp;&nbsp;<a href="#"><img src="/content/img/delete.png" alt="delete"/></a></td>
+                                </tr>
+                              </tbody>
+                            </table>
+                            <form class="form-inline">
+                              <div class="form-group">
+
+                                <label for="name">Name</label>
+                                <select class="form-control-inline" id="name">
+                                  <option selected>Rocio</option>
+                                  <option>Victor Manuel</option>
+                                  <option>David</option>
+                                  <option>Borja</option>
+                                </select>
+                                <label for="comments">Comments</label>
+                                <input type="text" class="form-control" id="comments" placeholder="please, write comments">
+                                <button type="#" class="btn btn-default">Add</button>
+                              </div>
+                            </form>
+                            <a href="#">Add new student</a>
+                          </div>
+                        </div>
                     </div>
                 </div>
             </div>

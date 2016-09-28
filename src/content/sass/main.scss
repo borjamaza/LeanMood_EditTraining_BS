@@ -1,0 +1,27 @@
+/*
+    >npm install bootstrap-sass --save-dev
+    // In this main file, we can import the parts that we want to use from bootstrap.
+    // For simplicity, bootstrap and theme (animations reponsible).
+    // We create our own variables (copy _variables.scss) files, and there, we will override
+    // all the values that we are interested on.
+*/
+
+@import "_variables.scss";
+
+@import "../../../node_modules/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+@import "../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap/_theme.scss";
+
+
+h1 {
+  text-align: center !important;
+  margin-top: 150px !important;
+  border-bottom-width: 0px !important;
+}
+.form-horizontal .control-label{
+  text-align: left !important;
+}
+.tab-content{
+  margin-top: -27px;
+  padding: 30px 20px;
+  border: solid 1px #555;
+}

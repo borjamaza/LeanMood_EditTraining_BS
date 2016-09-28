@@ -1,0 +1,26 @@
+{
+  "name": "LeanMood_EditTraining_BS",
+  "version": "1.0.0",
+  "description": "Window desing: LeanMood | Edit Trainig",
+  "main": "BS_EditTraining.html",
+  "scripts": {
+    "start": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/borjamaza/LeanMood_EditTraining_BS.git"
+  },
+  "author": "Borja Maza",
+  "license": "ISC",
+  "devDependencies": {
+    "bootstrap-sass": "^3.3.7",
+    "gulp": "^3.9.1",
+    "gulp-connect": "^5.0.0",
+    "gulp-open": "^2.0.0",
+    "gulp-sass": "^2.3.2"
+  },
+  "bugs": {
+    "url": "https://github.com/borjamaza/LeanMood_EditTraining_BS/issues"
+  },
+  "homepage": "https://github.com/borjamaza/LeanMood_EditTraining_BS"
+}

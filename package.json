@@ -2,7 +2,7 @@
   "name": "LeanMood_EditTraining_BS",
   "version": "1.0.0",
   "description": "Window desing: LeanMood | Edit Trainig",
-  "main": "BS_EditTraining.html",
+  "main": "/BS_EditTraining.html",
   "scripts": {
     "start": "gulp"
   },
